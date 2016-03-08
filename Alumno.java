@@ -1,10 +1,14 @@
+﻿// Esto fue cambiado por Andrés Caballero
+
 package Escuela;
 
 public class Alumno{
    private int numCuenta;
    private String primerNombre;
    private String apellido;
-   private int nota;   
+   private int nota;
+   private char Let;
+   private boolean soy;   
    
     public Alumno(int numCuenta, String primerNombre, String apellido) {
         this.numCuenta = numCuenta;
